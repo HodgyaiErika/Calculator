@@ -1,0 +1,28 @@
+.container{
+	width:300px
+}
+.button{
+	background-color:rgb(201,201,201);
+	margin-top:10px;
+	border:3px solid white;
+	font-size:20px;
+}
+button:hover{
+	cursor:pointer;
+	background-color:rgb(182,178,178);
+}
+button:focus{
+	background-color:rgb(136,136,136);
+}
+.borrad1{
+	border-radius:10px 10px 0px 0px;
+}
+.borrad2{
+	border-radius:0px 0px 0px 10px;
+}
+.borrad3{
+	border-radius:0px 0px 10px 0px;
+}
+.dispres{
+	text-align:right;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>session11</title>
+		<link rel="stylesheet" href="./css/resetcss.css">
+		<link rel="stylesheet" href="./css/grid.css">
+		<link rel="stylesheet" href="./css/session11.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<button class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button borrad1 dispres" id="output">0</button>
+			</div>
+			<div class="row">
+				<button class="col-xs-6 col-sm-6 col-md-6 col-lg-6 button" onclick='clearCalculator(clear)'>C</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='percentAge()'>%</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick("/")'>/</button>
+			</div>
+			<div class="row">
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(7)'>7</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(8)'>8</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(9)'>9</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick("*")'>X</button>
+			</div>
+			<div class="row">
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(4)'>4</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(5)'>5</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(6)'>6</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick("-")'>-</button>
+			</div>
+			<div class="row">
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(1)'>1</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(2)'>2</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick(3)'>3</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick("+")'>+</button>
+			</div>
+			<div class="row">
+				<button class="col-xs-6 col-sm-6 col-md-6 col-lg-6 button borrad2" onclick='handelButtonClick(0)'>0</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button" onclick='handelButtonClick()'>.</button>
+				<button class="col-xs-3 col-sm-3 col-md-3 col-lg-3 button borrad3" onclick='egalButton("=")'>=</button>
+			</div>
+			</div>
+		</div>
+		<script src="./session11javascript.js" > </script>
+	</body>
+</html>
